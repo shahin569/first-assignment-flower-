@@ -13,11 +13,11 @@ body{
 }
 .flex{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 .container{
-    max-width: 1280px;
+    max-width: 1180px;
     margin: auto;
 
 }
@@ -40,8 +40,8 @@ body{
 /* header css starts*/
 .main-header{
     height: 497px;
-    justify-content: center;
-    gap: 350px;
+    /* justify-content: center; */
+    gap: 200px;
     overflow: hidden;
     padding-top: 50px;
 }
@@ -54,6 +54,7 @@ body{
 }
 .banner-info{
     width: 40vw;
+    padding-bottom: 100px;
 }
 
 .banner-description{
@@ -90,4 +91,52 @@ body{
     display: inline-block;
 }
 
+.featured-boxes{
+    align-items: center;
+}
 
+.box-image{
+    margin: 15px;
+    width: 300px;
+    height:400px;
+    border-radius: 300px 300px 0 0;
+}
+
+.box-image{
+    position: relative;
+}
+
+.box-image img{
+    max-width: 400px;
+    position: absolute;
+    bottom:0;
+    left:50%;
+    transform: translate(-50%, -0);
+        
+}
+
+.odd-image img{
+    max-width: 400px;
+    position: absolute;
+    bottom:10%;
+    left:50%;
+    transform: translate(-50%, -10%);
+}
+
+.first-box{
+    background-color: #a7216218;
+}
+
+.second-box{
+    background-color: #0598a013;
+}
+
+.third-box{
+    background-color: #477d1111;
+}
+
+
+.box-title{
+    font-size: 16px;
+    text-decoration: underline;
+}
