@@ -164,6 +164,7 @@ body{
  display: flex;
  gap: 200px;
  justify-content: space-evenly;
+ padding:50px 0;
 
 }
 
@@ -174,4 +175,36 @@ body{
 
 .deal-description{
     padding: 0 0 20px 0;
+}
+
+
+/* instagram section starts here */
+
+
+.instagram-section{
+    text-align: center;
+    padding:100px;
+
+
+}
+
+.instagram-description{
+    max-width: 450px;
+    text-align: center;
+    display: inline-block;
+}
+
+.insta-image-box{
+    margin-top: 50px;
+    display: flex;
+
+}
+
+.insta-image{
+    margin:5px
+}
+
+.insta-image-box img{
+    width: 270px;
+    height: auto;
 }
