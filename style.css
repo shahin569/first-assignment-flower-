@@ -84,6 +84,65 @@ body{
 
 }
 
+/* Extra section start here */
+
+.extra-section{
+    background-color: rgba(39, 39, 39, 0.035);
+    padding: 100px 0;
+
+}
+
+.extra-section .flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    
+}
+
+.extra-section-left{
+    max-width: 40vw;
+    overflow: hidden;
+}
+
+.extra-section-left{
+    position: relative;
+}
+
+.extra-image{
+    border-radius: 5px;
+}
+
+.fa-circle-play{
+    font-size: 10em;
+    color: #E55473;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.2s ease-in;
+}
+
+.fa-circle-play:hover{
+    color: #e55473cc;
+}
+
+.extra-section-right .description{
+    padding-bottom: 20px;
+}
+
+.extra-section-right li{
+    list-style: none;
+    font-size: 17;
+    line-height: 1.5em;
+    padding-bottom: 15px;
+}
+
+.extra-section-right i{
+    color: #E55473;
+    margin-right: 5px;
+}
+
+
 /* featured section css starts here */
 
 .featured-section{
@@ -268,7 +327,7 @@ input[type="email"]{
     color:#fff;
 }
 
-.footer-title-colored{
+.span-colored{
     color: #E55473;
 }
 
