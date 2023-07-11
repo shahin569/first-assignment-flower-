@@ -217,9 +217,13 @@ body{
     text-align: center;
     padding: 100px 0;
     background-image: url("images/Rectangle\ 9.png");
-    padding: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
     margin: 100px auto;
-    border-radius: 10px; 
+    border-radius: 10px;
+    width: 1180px;
 
   
 
@@ -238,4 +242,41 @@ input[type="email"]{
     border: none;
     border-radius: 5px;
     margin:5px;
+}
+
+
+/* Footer section css starts */
+
+
+.footer-section{
+    background-color: #111010;
+    text-align: center;
+    color: white;
+    padding: 100px 0;
+}
+
+
+
+.footer-section .secondary-title{
+    color:#fff;
+}
+
+.footer-title-colored{
+    color: #E55473;
+}
+
+.footer-description{
+    font-size: 14px;
+    line-height: 1.5em;
+    color: #ffffffe0;
+    max-width: 450px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.footer-credit{
+    color: #ffffff54;
+    font-size: 14px;
+
 }
