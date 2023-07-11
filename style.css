@@ -13,7 +13,7 @@ body{
 }
 .flex{
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 .container{
@@ -40,7 +40,6 @@ body{
 /* header css starts*/
 .main-header{
     height: 497px;
-    /* justify-content: center; */
     gap: 200px;
     overflow: hidden;
     padding-top: 50px;
@@ -97,8 +96,8 @@ body{
 
 .box-image{
     margin: 15px;
-    width: 300px;
-    height:400px;
+    width: 350px;
+    height:450px;
     border-radius: 300px 300px 0 0;
 }
 
@@ -139,4 +138,22 @@ body{
 .box-title{
     font-size: 16px;
     text-decoration: underline;
+    font-weight: 600;
+}
+
+.featured-bottom{
+    background-color: #27272709;
+    padding: 80px;
+    margin: 100px 15px;
+    border-radius: 10px; 
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.featured-bottom-box img{
+    width: 50px;
+}
+
+.featured-bottom-box p{
+    font-size: 14px;
 }
