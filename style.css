@@ -82,12 +82,13 @@ body{
 
 .featured-section{
     text-align: center;
-    padding: 50px 0;
+    padding: 100px 0;
 }
 .featured-description{
     max-width: 450px;
     text-align: center;
     display: inline-block;
+    margin-bottom: 50px;
 }
 
 .featured-boxes{
@@ -205,7 +206,7 @@ body{
 }
 
 .insta-image-box img{
-    width: 270px;
+    width: 285px;
     height: auto;
 }
 
