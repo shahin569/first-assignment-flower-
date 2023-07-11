@@ -157,3 +157,21 @@ body{
 .featured-bottom-box p{
     font-size: 14px;
 }
+
+/* deal info section starts here */
+
+.deal-section{
+ display: flex;
+ gap: 200px;
+ justify-content: space-evenly;
+
+}
+
+.deal-info{
+    text-align: center;
+    max-width: 50vw;
+}
+
+.deal-description{
+    padding: 0 0 20px 0;
+}
